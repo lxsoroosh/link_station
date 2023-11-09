@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3987bdc5-3676-47bd-a12f-b8a69cf08a76" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.azdo/pipelines/azure-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.azdo/pipelines/terraform/java/azure-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.devcontainer/devcontainer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.github/workflows/azure-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOTICE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OPTIONAL_FEATURES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources-with-apim.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../azure.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/abbreviations.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/app/api.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/app/apim-api-policy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/app/apim-api.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/app/db.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/app/web.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/ai/cognitiveservices.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/database/cosmos/cosmos-account.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/database/cosmos/mongo/cosmos-mongo-account.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/database/cosmos/mongo/cosmos-mongo-db.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/database/cosmos/sql/cosmos-sql-account.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/database/cosmos/sql/cosmos-sql-db.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/database/cosmos/sql/cosmos-sql-role-assign.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/database/cosmos/sql/cosmos-sql-role-def.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/database/postgresql/flexibleserver.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/database/sqlserver/sqlserver.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/gateway/apim.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/host/aks-agent-pool.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/host/aks-managed-cluster.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/host/aks.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/host/appservice-appsettings.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/host/appservice.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/host/appserviceplan.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/host/container-app-upsert.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/host/container-app.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/host/container-apps-environment.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/host/container-apps.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/host/container-registry.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/host/functions.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/host/staticwebapp.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/monitor/applicationinsights-dashboard.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/monitor/applicationinsights.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/monitor/loganalytics.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/monitor/monitoring.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/networking/cdn-endpoint.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/networking/cdn-profile.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/networking/cdn.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/search/search-services.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/security/keyvault-access.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/security/keyvault-secret.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/security/keyvault.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/security/registry-access.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/security/role.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/storage/storage-account.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/core/testing/loadtesting.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/main.bicep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra/main.parameters.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openapi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/api/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/api/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/api/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/api/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/api/openapi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/api/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/api/requirements-test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/api/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/api/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/api/tests/test_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/api/todo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/api/todo/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/api/todo/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/api/todo/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/entrypoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/nginx/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/public/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/@types/window.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/App.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/actions/actionCreators.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/actions/common.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/actions/itemActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/actions/listActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/components/telemetry.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/components/telemetryContext.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/components/todoContext.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/components/todoItemDetailPane.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/components/todoItemListPane.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/components/todoListMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/config/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/layout/header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/layout/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/layout/sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/models/applicationState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/models/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/models/todoItem.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/models/todoList.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/pages/homePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/react-app-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/reducers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/reducers/listsReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/reducers/selectedItemReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/reducers/selectedListReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/reportWebVitals.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/services/itemService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/services/listService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/services/restService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/services/telemetryService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/setupTests.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/ux/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/src/ux/theme.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/web/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tests/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tests/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tests/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tests/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tests/playwright.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tests/todo.spec.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2Xw7PGsEwsxYpLEXlbqVqggrdeR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/soroosh/projects/interview/containered_app/assets"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3987bdc5-3676-47bd-a12f-b8a69cf08a76" name="Changes" comment="" />
+      <created>1699528262843</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699528262843</updated>
+      <workItem from="1699528265122" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
