@@ -98,6 +98,17 @@ const HomePage = () => {
 
     return (
         <Container maxWidth="md" sx={{py: 4}}>
+            <Stack>
+                <Box
+                    component="img"
+                    sx={{
+                        height: 45,
+                        width: 250,
+                    }}
+                    alt="Nordcloud Logo"
+                    src="/nordcloud12.png"
+                />
+            </Stack>
             <Grid container spacing={3} sx={{height: '100vh', alignItems: 'stretch'}}>
                 <Grid item xs={12} md={8}>
 

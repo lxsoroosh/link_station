@@ -6,10 +6,12 @@ const theme = getTheme();
 
 const logoStyles: IStackStyles = {
     root: {
-        width: '300px',
+        width: 'auto', // Adjusted from fixed width to auto
         background: theme.palette.themePrimary,
         alignItems: 'center',
-        padding: '0 20px'
+        padding: '0 20px',
+        display: 'flex', // Ensure flexbox is used for better alignment
+        justifyContent: 'start' // Align items to the start of the flex container
     }
 }
 
@@ -18,22 +20,6 @@ const logoIconClass = mergeStyles({
     paddingRight: 10
 });
 
-const toolStackClass: IStackStyles = {
-    root: {
-        alignItems: 'center',
-        height: 48,
-        paddingRight: 10
-    }
-}
-
-const iconProps: IIconProps = {
-    styles: {
-        root: {
-            fontSize: 16,
-            color: theme.palette.white
-        }
-    }
-}
 
 const Header: FC = (): ReactElement => {
     return (
@@ -46,17 +32,7 @@ const Header: FC = (): ReactElement => {
                 <div></div>
             </Stack.Item>
             <Stack.Item>
-                <Stack horizontal styles={logoStyles}>
-                    <Box
-                        component="img"
-                        sx={{
-                            height: 45,
-                            width: 250,
-                        }}
-                        alt="Nordcloud Logo"
-                        src="/nordcloud12.png"
-                    />
-                </Stack>
+                <div></div>
             </Stack.Item>
         </Stack>
     );
