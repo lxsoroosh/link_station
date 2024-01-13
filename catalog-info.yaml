@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: helloWorld
+  description: "A simple application"
+  annotations:
+    backstage.io/dockerfile-location: "/Dockerfile"
+    github.com/project-slug: lxsoroosh/link_station
+    # backstage.io/github-actions-id: lxsoroosh/link_station
+
+spec:
+  type: service
+  lifecycle: production
+  owner: guest
+  implementsApis: []
+  system: my-system
