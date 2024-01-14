@@ -4,7 +4,7 @@ metadata:
   name: helloWorld
   description: "A simple application"
   annotations:
-    backstage.io/dockerfile-location: "/Dockerfile"
+    backstage.io/dockerfile-location: "/src/web/Dockerfile"
     github.com/project-slug: lxsoroosh/link_station
     # backstage.io/github-actions-id: lxsoroosh/link_station
 
